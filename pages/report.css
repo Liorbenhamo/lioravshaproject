@@ -1,0 +1,142 @@
+.reportbody {
+  display: flex;
+  justify-content: center;
+}
+.containerreport {
+  margin: 20px;
+  width: 80vw;
+}
+.formlogin {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.titlelogin {
+  font-size: 28px;
+  color: #34495e;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.titlelogin::before,
+.titlelogin::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: #34495e;
+}
+
+.titlelogin::before {
+  width: 18px;
+  height: 18px;
+  background-color: #34495e;
+}
+
+.titlelogin::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.messagelogin,
+.signinlogin {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 30px;
+}
+
+.signinlogin {
+  text-align: center;
+}
+
+.signinlogin a {
+  color: #34495e;
+}
+
+.signinlogin a:hover {
+  text-decoration: underline #34495e;
+}
+
+.flexlogin {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.formlogin label {
+  position: relative;
+}
+
+.formlogin label .inputlogin {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.formlogin label .inputlogin + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.formlogin label .inputlogin:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.formlogin label .inputlogin:focus + span,
+.formlogin label .inputlogin:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.formlogin label .inputlogin:valid + span {
+  color: green;
+}
+
+.submitlogin {
+  border: none;
+  outline: none;
+  background-color: #34495e;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: 0.3s ease;
+}
+
+.submitlogin:hover {
+  background-color: #34495e;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}

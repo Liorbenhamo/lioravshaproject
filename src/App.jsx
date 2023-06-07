@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "../component/Navbar";
 import Homepage from "../pages/Homepage";
-import Report from "../component/Report";
+import Report from "../pages/Report";
 export const InfoContext = createContext();
 function App() {
   const [correntuser, setCorrentuser] = useState();
