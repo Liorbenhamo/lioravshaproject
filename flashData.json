@@ -1,0 +1,40 @@
+{
+    "flashes": [
+      {
+        "id": 1,
+        "date": "01/06/2023",
+        "flash": "School picnic will be held on June 15th. Don't forget to bring your picnic baskets!"
+      },
+      {
+        "id": 2,
+        "date": "02/06/2023",
+        "flash": "Reminder: The school library will be closed for maintenance from June 5th to June 10th."
+      },
+      {
+        "id": 3,
+        "date": "03/06/2023",
+        "flash": "Congratulations to the winners of the Science Fair! Check the notice board for the results."
+      },
+      {
+        "id": 4,
+        "date": "04/06/2023",
+        "flash": "The school will be hosting a career guidance session on June 8th. All students are encouraged to attend."
+      },
+      {
+        "id": 5,
+        "date": "05/06/2023",
+        "flash": "Reminder: Parent-Teacher Meeting is scheduled for June 12th. Please make sure to book your appointments."
+      },
+      {
+        "id": 6,
+        "date": "06/06/2023",
+        "flash": "Attention students: The deadline for submission of the essay competition is extended to June 20th."
+      },
+      {
+        "id": 7,
+        "date": "07/06/2023",
+        "flash": "Sports Day is coming up on June 25th. Get ready to showcase your athletic skills!"
+      }
+    ]
+  }
+  

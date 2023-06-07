@@ -1,0 +1,420 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "John Smith",
+        "username": "johnsmith",
+        "password": "johnsmith",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "johnsmith.jpg",
+        "title": "student"
+      },
+      {
+        "id": 2,
+        "name": "Emma Johnson",
+        "username": "emmajohnson",
+        "password": "emmajohnson",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "emmajohnson.jpg",
+        "title": "student"
+      },
+      {
+        "id": 3,
+        "name": "Michael Brown",
+        "username": "michaelbrown",
+        "password": "michaelbrown",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "michaelbrown.jpg",
+        "title": "student"
+      },
+      {
+        "id": 4,
+        "name": "Emily Davis",
+        "username": "emilydavis",
+        "password": "emilydavis",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "emilydavis.jpg",
+        "title": "student"
+      },
+      {
+        "id": 5,
+        "name": "Daniel Johnson",
+        "username": "danieljohnson",
+        "password": "danieljohnson",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "danieljohnson.jpg",
+        "title": "student"
+      },
+      {
+        "id": 6,
+        "name": "Olivia Davis",
+        "username": "oliviadavis",
+        "password": "oliviadavis",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "oliviadavis.jpg",
+        "title": "student"
+      },
+      {
+        "id": 7,
+        "name": "James Johnson",
+        "username": "jamesjohnson",
+        "password": "jamesjohnson",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "jamesjohnson.jpg",
+        "title": "student"
+      },
+      {
+        "id": 8,
+        "name": "Sophia Wilson",
+        "username": "sophiawilson",
+        "password": "sophiawilson",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "sophiawilson.jpg",
+        "title": "student"
+      },
+      {
+        "id": 9,
+        "name": "William Taylor",
+        "username": "williamtaylor",
+        "password": "williamtaylor",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "williamtaylor.jpg",
+        "title": "student"
+      },
+      {
+        "id": 10,
+        "name": "Ava Anderson",
+        "username": "avaanderson",
+        "password": "avaanderson",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "avaanderson.jpg",
+        "title": "student"
+      },
+      {
+        "id": 11,
+        "name": "Joseph Martinez",
+        "username": "josephmartinez",
+        "password": "josephmartinez",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "josephmartinez.jpg",
+        "title": "student"
+      },
+      {
+        "id": 12,
+        "name": "Mia Thompson",
+        "username": "miathompson",
+        "password": "miathompson",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "miathompson.jpg",
+        "title": "student"
+      },
+      {
+        "id": 13,
+        "name": "David Lewis",
+        "username": "davidlewis",
+        "password": "davidlewis",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "davidlewis.jpg",
+        "title": "student"
+      },
+      {
+        "id": 14,
+        "name": "Samantha Clark",
+        "username": "samanthaclark",
+        "password": "samanthaclark",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "samanthaclark.jpg",
+        "title": "student"
+      },
+      {
+        "id": 15,
+        "name": "Andrew Walker",
+        "username": "andrewwalker",
+        "password": "andrewwalker",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "andrewwalker.jpg",
+        "title": "student"
+      },
+      {
+        "id": 16,
+        "name": "Abigail Mitchell",
+        "username": "abigailmitchell",
+        "password": "abigailmitchell",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "abigailmitchell.jpg",
+        "title": "student"
+      },
+      {
+        "id": 17,
+        "name": "Ryan Adams",
+        "username": "ryanadams",
+        "password": "ryanadams",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "ryanadams.jpg",
+        "title": "student"
+      },
+      {
+        "id": 18,
+        "name": "Grace Turner",
+        "username": "graceturner",
+        "password": "graceturner",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "graceturner.jpg",
+        "title": "student"
+      },
+      {
+        "id": 19,
+        "name": "Ethan Price",
+        "username": "ethanprice",
+        "password": "ethanprice",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "ethanprice.jpg",
+        "title": "student"
+      },
+      {
+        "id": 20,
+        "name": "Chloe Peterson",
+        "username": "chloepeterson",
+        "password": "chloepeterson",
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "English",
+          "History",
+          "Geography"
+        ],
+        "image": "chloepeterson.jpg",
+        "title": "student"
+      }
+    ],
+  
+
+  "teachers": [
+    {
+      "id": 21,
+      "name": "Mr. Anderson",
+      "username": "mranderson",
+      "password": "mranderson",
+      "subject": "Mathematics",
+      "image": "mranderson.jpg",
+      "title": "teacher"
+    },
+    {
+      "id": 22,
+      "name": "Mrs. Johnson",
+      "username": "mrsjohnson",
+      "password": "mrsjohnson",
+      "subject": "Physics",
+      "image": "mrsjohnson.jpg",
+      "title": "teacher"
+    },
+    {
+      "id": 23,
+      "name": "Ms. Davis",
+      "username": "msdavis",
+      "password": "msdavis",
+      "subject": "Chemistry",
+      "image": "msdavis.jpg",
+      "title": "teacher"
+    },
+    {
+      "id": 24,
+      "name": "Mr. Wilson",
+      "username": "mrwilson",
+      "password": "mrwilson",
+      "subject": "Biology",
+      "image": "mrwilson.jpg",
+      "title": "teacher"
+    },
+    {
+      "id": 25,
+      "name": "Mrs. Thompson",
+      "username": "mrsthompson",
+      "password": "mrsthompson",
+      "subject": "English",
+      "image": "mrsthompson.jpg",
+      "title": "teacher"
+    },
+    {
+      "id": 26,
+      "name": "Mr. Martinez",
+      "username": "mrmartinez",
+      "password": "mrmartinez",
+      "subject": "History",
+      "image": "mrmartinez.jpg",
+      "title": "teacher"
+    },
+    {
+      "id": 27,
+      "name": "Ms. Adams",
+      "username": "msadams",
+      "password": "msadams",
+      "subject": "Geography",
+      "image": "msadams.jpg",
+      "title": "teacher"
+    }
+  ],
+
+  "headmaster": {
+    "id": 28,
+    "name": "Headmaster Smith",
+    "username": "headmastersmith",
+    "password": "headmastersmith",
+    "image": "headmastersmith.jpg",
+    "title": "headmaster"
+  }
+}
