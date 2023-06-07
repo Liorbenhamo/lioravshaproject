@@ -1,0 +1,23 @@
+{ "teamData":[
+    {
+      "id": 1,
+      "image": "https://iva.org.il/Pics/season%202017%202018/%D7%9C%D7%99%D7%92%D7%95%D7%AA%20%D7%A0%D7%95%D7%A2%D7%A8/%D7%AA%D7%99%D7%9B%D7%95%D7%A0%D7%99%D7%9D/mosinzon.jpg",
+      "title": "Volleyball team"
+    },
+    {
+      "id": 2,
+      "image": "https://www.slu.edu/news/img/chess-team-portait.jpg",
+      "title": "chess team"
+    },
+    {
+      "id": 3,
+      "image": "https://img.resized.co/newstalk/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL21lZGlhLnJhZGlvY21zLm5ldFxcXC91cGxvYWRzXFxcLzIwMjJcXFwvMTBcXFwvMTIxNjA0MDJcXFwvUjIyNUNSLmpwZ1wiLFwid2lkdGhcIjo5NzAsXCJoZWlnaHRcIjo0ODUsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5uZXdzdGFsay5jb21cXFwvaW1hZ2VzXFxcL2RlZmF1bHRfbm9faW1hZ2UucG5nP3Y9M1wiLFwib3B0aW9uc1wiOltdfSIsImhhc2giOiI4YTJlOGJhYzY3Zjk3OGI0YzEzMjkyZGI3YWE0ZWNiOWM4MWNlYzlkIn0=/mother-of-son-kicked-off-team-says-competitive-sport-not-sending-the-right-message.jpg",
+      "title": "football team"
+    },
+    {
+      "id": 4,
+      "image": "https://images.squarespace-cdn.com/content/v1/5baa61a5e6666925dd9cb761/1569623106065-FJDXYJBKT54AXBYP6AEX/ClubTeams.jpg",
+      "title": "basketball team"
+    }
+  ]}
+  
