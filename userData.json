@@ -1,347 +1,427 @@
 {
-    "students": [
-      {
-        "id": 1,
-        "name": "John Smith",
-        "username": "johnsmith",
-        "password": "johnsmith",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "johnsmith.jpg",
-        "title": "student"
-      },
-      {
-        "id": 2,
-        "name": "Emma Johnson",
-        "username": "emmajohnson",
-        "password": "emmajohnson",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "emmajohnson.jpg",
-        "title": "student"
-      },
-      {
-        "id": 3,
-        "name": "Michael Brown",
-        "username": "michaelbrown",
-        "password": "michaelbrown",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "michaelbrown.jpg",
-        "title": "student"
-      },
-      {
-        "id": 4,
-        "name": "Emily Davis",
-        "username": "emilydavis",
-        "password": "emilydavis",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "emilydavis.jpg",
-        "title": "student"
-      },
-      {
-        "id": 5,
-        "name": "Daniel Johnson",
-        "username": "danieljohnson",
-        "password": "danieljohnson",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "danieljohnson.jpg",
-        "title": "student"
-      },
-      {
-        "id": 6,
-        "name": "Olivia Davis",
-        "username": "oliviadavis",
-        "password": "oliviadavis",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "oliviadavis.jpg",
-        "title": "student"
-      },
-      {
-        "id": 7,
-        "name": "James Johnson",
-        "username": "jamesjohnson",
-        "password": "jamesjohnson",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "jamesjohnson.jpg",
-        "title": "student"
-      },
-      {
-        "id": 8,
-        "name": "Sophia Wilson",
-        "username": "sophiawilson",
-        "password": "sophiawilson",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "sophiawilson.jpg",
-        "title": "student"
-      },
-      {
-        "id": 9,
-        "name": "William Taylor",
-        "username": "williamtaylor",
-        "password": "williamtaylor",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "williamtaylor.jpg",
-        "title": "student"
-      },
-      {
-        "id": 10,
-        "name": "Ava Anderson",
-        "username": "avaanderson",
-        "password": "avaanderson",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "avaanderson.jpg",
-        "title": "student"
-      },
-      {
-        "id": 11,
-        "name": "Joseph Martinez",
-        "username": "josephmartinez",
-        "password": "josephmartinez",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "josephmartinez.jpg",
-        "title": "student"
-      },
-      {
-        "id": 12,
-        "name": "Mia Thompson",
-        "username": "miathompson",
-        "password": "miathompson",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "miathompson.jpg",
-        "title": "student"
-      },
-      {
-        "id": 13,
-        "name": "David Lewis",
-        "username": "davidlewis",
-        "password": "davidlewis",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "davidlewis.jpg",
-        "title": "student"
-      },
-      {
-        "id": 14,
-        "name": "Samantha Clark",
-        "username": "samanthaclark",
-        "password": "samanthaclark",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "samanthaclark.jpg",
-        "title": "student"
-      },
-      {
-        "id": 15,
-        "name": "Andrew Walker",
-        "username": "andrewwalker",
-        "password": "andrewwalker",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "andrewwalker.jpg",
-        "title": "student"
-      },
-      {
-        "id": 16,
-        "name": "Abigail Mitchell",
-        "username": "abigailmitchell",
-        "password": "abigailmitchell",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "abigailmitchell.jpg",
-        "title": "student"
-      },
-      {
-        "id": 17,
-        "name": "Ryan Adams",
-        "username": "ryanadams",
-        "password": "ryanadams",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "ryanadams.jpg",
-        "title": "student"
-      },
-      {
-        "id": 18,
-        "name": "Grace Turner",
-        "username": "graceturner",
-        "password": "graceturner",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "graceturner.jpg",
-        "title": "student"
-      },
-      {
-        "id": 19,
-        "name": "Ethan Price",
-        "username": "ethanprice",
-        "password": "ethanprice",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "ethanprice.jpg",
-        "title": "student"
-      },
-      {
-        "id": 20,
-        "name": "Chloe Peterson",
-        "username": "chloepeterson",
-        "password": "chloepeterson",
-        "subjects": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology",
-          "English",
-          "History",
-          "Geography"
-        ],
-        "image": "chloepeterson.jpg",
-        "title": "student"
-      }
-    ],
-  
+  "students": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "username": "johnsmith",
+      "password": "johnsmith",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "johnsmith.jpg",
+      "title": "student",
+      "residence": "New York",
+      "studyAdjustments": "None",
+      "hobbies": ["Reading", "Playing Soccer"],
+      "schoolActivities": ["Debate Club", "Chess Club"]
+    },
+    {
+      "id": 2,
+      "name": "Emma Johnson",
+      "username": "emmajohnson",
+      "password": "emmajohnson",
+      "works": ["https://www.yo-yoo.co.il/limodim/pics/f548e5.jpg"],
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "https://media.licdn.com/dms/image/D4D03AQFQcD_3SIMo1g/profile-displayphoto-shrink_800_800/0/1666722287521?e=2147483647&v=beta&t=MJa5EVaB5Xu6RZE65TmD3sCRd2NntixPfeDe4aA0tl8",
+      "title": "student",
+      "residence": "Los Angeles",
+      "studyAdjustments": "Extra time for exams",
+      "hobbies": ["Painting", "Guitar"],
+      "schoolActivities": ["Drama Club", "Art Club"]
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "username": "michaelbrown",
+      "password": "michaelbrown",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "michaelbrown.jpg",
+      "title": "student",
+      "residence": "Chicago",
+      "studyAdjustments": "Quiet environment for studying",
+      "hobbies": ["Playing Basketball", "Cooking"],
+      "schoolActivities": ["Science Club", "Student Council"]
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "username": "emilydavis",
+      "password": "emilydavis",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "emilydavis.jpg",
+      "title": "student",
+      "residence": "Houston",
+      "studyAdjustments": "Visual aids for learning",
+      "hobbies": ["Photography", "Dancing"],
+      "schoolActivities": ["Math Club", "Environmental Club"]
+    },
+    {
+      "id": 5,
+      "name": "Daniel Johnson",
+      "username": "danieljohnson",
+      "password": "danieljohnson",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "danieljohnson.jpg",
+      "title": "student",
+      "residence": "San Francisco",
+      "studyAdjustments": "Alternative assessments",
+      "hobbies": ["Gaming", "Playing Piano"],
+      "schoolActivities": ["Robotics Club", "Film Club"]
+    },
+    {
+      "id": 6,
+      "name": "Olivia Davis",
+      "username": "oliviadavis",
+      "password": "oliviadavis",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "oliviadavis.jpg",
+      "title": "student",
+      "residence": "Seattle",
+      "studyAdjustments": "Flexible deadlines",
+      "hobbies": ["Writing", "Swimming"],
+      "schoolActivities": ["Creative Writing Club", "Swim Team"]
+    },
+    {
+      "id": 7,
+      "name": "James Johnson",
+      "username": "jamesjohnson",
+      "password": "jamesjohnson",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "jamesjohnson.jpg",
+      "title": "student",
+      "residence": "Dallas",
+      "studyAdjustments": "Use of assistive technology",
+      "hobbies": ["Playing Guitar", "Basketball"],
+      "schoolActivities": ["Music Club", "Basketball Team"]
+    },
+    {
+      "id": 8,
+      "name": "Sophia Wilson",
+      "username": "sophiawilson",
+      "password": "sophiawilson",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "sophiawilson.jpg",
+      "title": "student",
+      "residence": "Miami",
+      "studyAdjustments": "Quiet study space",
+      "hobbies": ["Drawing", "Singing"],
+      "schoolActivities": ["Art Club", "Choir"]
+    },
+    {
+      "id": 9,
+      "name": "William Taylor",
+      "username": "williamtaylor",
+      "password": "williamtaylor",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "williamtaylor.jpg",
+      "title": "student",
+      "residence": "Atlanta",
+      "studyAdjustments": "Extra support from a tutor",
+      "hobbies": ["Playing Football", "Reading"],
+      "schoolActivities": ["Football Team", "Book Club"]
+    },
+    {
+      "id": 10,
+      "name": "Ava Anderson",
+      "username": "avaanderson",
+      "password": "avaanderson",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "avaanderson.jpg",
+      "title": "student",
+      "residence": "Denver",
+      "studyAdjustments": "Prefer visual learning materials",
+      "hobbies": ["Painting", "Hiking"],
+      "schoolActivities": ["Art Club", "Outdoor Club"]
+    },
+    {
+      "id": 11,
+      "name": "Joseph Martinez",
+      "username": "josephmartinez",
+      "password": "josephmartinez",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "josephmartinez.jpg",
+      "title": "student",
+      "residence": "Phoenix",
+      "studyAdjustments": "Flexible seating arrangement",
+      "hobbies": ["Playing Tennis", "Cooking"],
+      "schoolActivities": ["Tennis Team", "Cooking Club"]
+    },
+    {
+      "id": 12,
+      "name": "Mia Thompson",
+      "username": "miathompson",
+      "password": "miathompson",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "miathompson.jpg",
+      "title": "student",
+      "residence": "Philadelphia",
+      "studyAdjustments": "Use of study guides",
+      "hobbies": ["Playing Volleyball", "Writing"],
+      "schoolActivities": ["Volleyball Team", "Writing Club"]
+    },
+    {
+      "id": 13,
+      "name": "Ethan Anderson",
+      "username": "ethananderson",
+      "password": "ethananderson",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "ethananderson.jpg",
+      "title": "student",
+      "residence": "Boston",
+      "studyAdjustments": "Extended time for assignments",
+      "hobbies": ["Playing Guitar", "Basketball"],
+      "schoolActivities": ["Music Club", "Basketball Team"]
+    },
+    {
+      "id": 14,
+      "name": "Isabella Martinez",
+      "username": "isabellamartinez",
+      "password": "isabellamartinez",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "isabellamartinez.jpg",
+      "title": "student",
+      "residence": "San Diego",
+      "studyAdjustments": "Quiet study environment",
+      "hobbies": ["Dancing", "Reading"],
+      "schoolActivities": ["Dance Club", "Book Club"]
+    },
+    {
+      "id": 15,
+      "name": "Alexander Wilson",
+      "username": "alexanderwilson",
+      "password": "alexanderwilson",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "alexanderwilson.jpg",
+      "title": "student",
+      "residence": "Washington, D.C.",
+      "studyAdjustments": "Use of assistive technology",
+      "hobbies": ["Playing Piano", "Soccer"],
+      "schoolActivities": ["Music Club", "Soccer Team"]
+    },
+    {
+      "id": 16,
+      "name": "Charlotte Taylor",
+      "username": "charlottetaylor",
+      "password": "charlottetaylor",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "charlottetaylor.jpg",
+      "title": "student",
+      "residence": "San Francisco",
+      "studyAdjustments": "Alternative assessments",
+      "hobbies": ["Drawing", "Basketball"],
+      "schoolActivities": ["Art Club", "Basketball Team"]
+    },
+    {
+      "id": 17,
+      "name": "Benjamin Davis",
+      "username": "benjamindavis",
+      "password": "benjamindavis",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "benjamindavis.jpg",
+      "title": "student",
+      "residence": "Seattle",
+      "studyAdjustments": "Quiet study space",
+      "hobbies": ["Playing Guitar", "Reading"],
+      "schoolActivities": ["Music Club", "Book Club"]
+    },
+    {
+      "id": 18,
+      "name": "Harper Moore",
+      "username": "harpermoore",
+      "password": "harpermoore",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "harpermoore.jpg",
+      "title": "student",
+      "residence": "Miami",
+      "studyAdjustments": "Extra support from a tutor",
+      "hobbies": ["Playing Piano", "Painting"],
+      "schoolActivities": ["Music Club", "Art Club"]
+    },
+    {
+      "id": 19,
+      "name": "Henry Anderson",
+      "username": "henryanderson",
+      "password": "henryanderson",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "henryanderson.jpg",
+      "title": "student",
+      "residence": "Atlanta",
+      "studyAdjustments": "Prefer visual learning materials",
+      "hobbies": ["Playing Soccer", "Reading"],
+      "schoolActivities": ["Soccer Team", "Book Club"]
+    },
+    {
+      "id": 20,
+      "name": "Evelyn Clark",
+      "username": "evelynclark",
+      "password": "evelynclark",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History",
+        "Geography"
+      ],
+      "image": "evelynclark.jpg",
+      "title": "student",
+      "residence": "Denver",
+      "studyAdjustments": "Flexible seating arrangement",
+      "hobbies": ["Drawing", "Hiking"],
+      "schoolActivities": ["Art Club", "Outdoor Club"]
+    }
+  ],
 
   "teachers": [
     {
