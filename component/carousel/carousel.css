@@ -2,12 +2,17 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  padding: 10vh;
 }
 
 .carousel-wrapper {
     display: flex;
-    width: 100%;
+    width:50vw;
     position: relative;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
 }
 
 .carousel-content-wrapper {
@@ -53,6 +58,10 @@
 .right-arrow {
     right: 24px;
 }
+.carousel-content.show-1 > * {
+    width: 100%;
+  }
+  
 .carousel-content.show-2 > * {
     width: 50%;
 }

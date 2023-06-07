@@ -1,0 +1,35 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "title": "The volletball team",
+        "image": "https://schoolsport.co.il/wp-content/uploads/2022/03/20220327_160532-scaled.jpg",
+        "content": "Congratulation to the volletball team for winning the national championship for high schools"
+      },
+      {
+        "id": 2,
+        "title": "chess",
+        "image": "https://shishi-bair.co.il/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-11-at-21.17.32-3-1024x863.jpeg",
+        "content": "Congratulation to Lior Ben Hemo for first place in the local chess championship"
+      },
+      {
+        "id": 3,
+        "title": "Student council",
+        "image": "https://www.ynetespanol.com/picserver/mynet/wcm_upload/wcm_mynet_pic/crop_images/2018/08/26/401072/308890_0_0_625_352_large.jpg",
+        "content": "The school would like to thank the student council for an excellent work in the last month"
+      },
+      {
+        "id": 4,
+        "title": "Football",
+        "image": "https://photo.one.co.il/Image/GG/2,1/1645499.webp",
+        "content": "Good luck to Avshalom Evgi who is traveling wish tha national team to the World Cup in USA"
+      },
+      {
+        "id": 5,
+        "title": "Good luck student",
+        "image": "https://www.israeldefense.co.il/sites/default/files/styles/full_article_image/public/_Uploads/dbsArticles/bigstock-Group-of-guys-and-girls-doing--401842358.jpg?itok=ipKClp1q",
+        "content": "Good luck in the new school year!"
+      }
+    ]
+  }
+  

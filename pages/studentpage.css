@@ -1,0 +1,19 @@
+.studentflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+img {
+  padding: 5px;
+  height: 150px;
+  width: 100px;
+}
+.cardstudent {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+}
+.teacherpageflex {
+  display: flex;
+  justify-content: space-evenly;
+}

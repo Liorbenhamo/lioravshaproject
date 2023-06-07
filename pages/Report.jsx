@@ -1,8 +1,11 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./report.css";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
+import axios from "axios";
 function Report() {
+  const [url, setUrl] = useState();
+  const [work, setWork] = useState(false);
   const form = useRef();
   const {
     register,
@@ -11,22 +14,52 @@ function Report() {
   } = useForm();
   const onSubmit = async (data) => {
     console.log(data);
-    emailjs
-      .sendForm(
-        "service_olaio2q",
-        "template_x7lsbgp",
-        form.current,
-        "Aqy5vxlkXUDLZ3OOJ"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    try {
+      let tempurl;
+      console.log(data.url[0]);
+      if (data.url[0]) {
+        const formData = new FormData();
+        formData.append("file", data.url[0]);
+        formData.append("upload_preset", "b5w6nssf");
+        await axios
+          .post(
+            "https://api.cloudinary.com/v1_1/dbhkoyzin/image/upload",
+            formData
+          )
+          .then((res) => setUrl(res.data.secure_url));
+        console.log(tempurl);
+      }
+    } catch (err) {
+      console.log(err);
+    }
   };
+  console.log(url);
+  useEffect(() => {
+    if (work) {
+      console.log(form.current);
+      setTimeout(() => {
+        emailjs
+          .sendForm(
+            "service_olaio2q",
+            "template_x7lsbgp",
+            form.current,
+            "Aqy5vxlkXUDLZ3OOJ"
+          )
+          .then(
+            (result) => {
+              console.log(result.text);
+            },
+            (error) => {
+              console.log(error.text);
+            }
+          );
+      }, 5000);
+    }
+  }, [url]);
+  useEffect(() => {
+    setWork(true);
+  }, []);
+
   return (
     <div className="reportbody">
       <div className="containerreport">
@@ -83,6 +116,14 @@ function Report() {
             />
             <span>people involve</span>
           </label>
+          <label>image url:</label>
+          <input type="file" {...register("url")} />
+          <input
+            style={{ display: "none" }}
+            value={`${url}`}
+            {...register("url2")}
+          />
+
           <br />
           <label>
             <textarea

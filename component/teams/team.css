@@ -1,0 +1,78 @@
+/* .scrollmenu-body{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(rgba(63, 131, 131, 0.379), rgba(63, 131, 131, 0.9)) ,url("image/example pic.jpg");
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .scrollmenu-title{
+    text-align:center;
+    position: relative;
+  
+  }
+  .h-i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  /* .scrollmenu-body {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(rgba(63, 131, 131, 0.379), rgba(63, 131, 131, 0.9)),
+      url("image/example pic.jpg");
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+  }
+  
+  .scrollmenu-title {
+    text-align: center;
+    position: relative;
+  }
+  
+  .h-i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  } */
+  .scrollmenu-body {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(rgba(63, 131, 131, 0.379), rgba(63, 131, 131, 0.9)),
+      url("image/example pic.jpg");
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align items at the bottom */
+  }
+  
+  .scrollmenu-title {
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    padding: 5px;
+ 
+  }
+  
+  .h-i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  
