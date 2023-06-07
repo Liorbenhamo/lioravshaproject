@@ -1,0 +1,16 @@
+.custom-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .custom-card .MuiCardContent-root {
+    flex-grow: 1;
+  }
+
+  .card-event {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 16px; /* Add some margin between cards if needed */
+  }
