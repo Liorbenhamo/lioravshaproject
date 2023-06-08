@@ -13,7 +13,7 @@ import {
   faBasketballBall,
   faEarthAmericas,
   faBridge,
-  faPerson
+  faPerson,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./homePage.css";
@@ -44,6 +44,71 @@ function HomePage() {
       clearInterval(timer);
     };
   }, []);
+  const [hoveredCard, setHoveredCard] = useState(null);
+
+  const handleCardHover = (cardId) => {
+    setHoveredCard(cardId);
+  };
+
+  const renderCardContent = (cardId) => {
+    switch (cardId) {
+      case 1:
+        return (
+          <div>
+            <p>
+              Exposing students to their immediate and distant environment.
+              Raising awareness of social and environmental challenges and
+              encouraging them to initiate and get involved. Giving the right to
+              feel belonging to a social or environmental cause.
+            </p>
+          </div>
+        );
+      case 2:
+        return (
+          <div>
+            <p>
+              Developing skills for creating connections and optimal
+              intra-personal and interpersonal communication, working in a team
+              and developing listening to oneself and others, which forms
+              bridges to a better society.
+            </p>
+          </div>
+        );
+      case 3:
+        return (
+          <div>
+            <p>
+              Providing opportunities for the development of autonomy and choice
+              in a way that will give room for the exploitation of the skills
+              and abilities of each of the students while giving free rein to
+              the expression of personal ideas.
+            </p>
+          </div>
+        );
+      default:
+        return null;
+    }
+  };
+  const [isVisible, setIsVisible] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const shouldShowButton = scrollTop > 100;
+    setIsVisible(shouldShowButton);
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div>
@@ -66,17 +131,42 @@ function HomePage() {
         </div>
       </div>
       <div className="container-card">
-        <div style={{ backgroundColor: "orange" }} className="cards">
-         <h1>Pleasure in paddling</h1> 
-        <div> <FontAwesomeIcon icon={faEarthAmericas} size="2xl" color="white" /></div> 
+        <div
+          style={{ backgroundColor: "orange" }}
+          className={`cards ${hoveredCard === 1 ? "hovered" : ""}`}
+          onMouseEnter={() => handleCardHover(1)}
+          onMouseLeave={() => handleCardHover(null)}
+        >
+          <h1>Pleasure in paddling</h1>
+          <div>
+            <FontAwesomeIcon icon={faEarthAmericas} size="2xl" color="white" />
+          </div>
+          {hoveredCard === 1 && renderCardContent(1)}
         </div>
-        <div style={{ backgroundColor: "blue" }} className="cards">
-         <h1>A bond as a bridge</h1>
-          <div><FontAwesomeIcon icon={faBridge} size="2xl" color="white" /></div>
+        <div
+          style={{ backgroundColor: "blue" }}
+          className={`cards ${hoveredCard === 2 ? "hovered" : ""}`}
+          onMouseEnter={() => handleCardHover(2)}
+          onMouseLeave={() => handleCardHover(null)}
+        >
+          <h1>A bond as a bridge</h1>
+          <div>
+            <FontAwesomeIcon icon={faBridge} size="2xl" color="white" />
+          </div>
+          {hoveredCard === 2 && renderCardContent(2)}
         </div>
-        <div style={{ backgroundColor: "green" }} className="cards">
-         <h1> place in the world</h1>
-         <div> <FontAwesomeIcon icon={faPerson} size="2xl" color="white" /></div>
+        <div
+          style={{ backgroundColor: "green" }}
+          className={`cards ${hoveredCard === 3 ? "hovered" : ""}`}
+          onMouseEnter={() => handleCardHover(3)}
+          onMouseLeave={() => handleCardHover(null)}
+        >
+          <h1> place in the world</h1>
+          <div>
+            {" "}
+            <FontAwesomeIcon icon={faPerson} size="2xl" color="white" />
+          </div>
+          {hoveredCard === 3 && renderCardContent(3)}
         </div>
       </div>
       <br />
@@ -119,8 +209,9 @@ function HomePage() {
 
                 return (
                   <div key={index} className="team-item">
-                    <Link to={`/team/${value.id}`}>
+                    <Link onClick={() => window.scroll(0,0)}  to={`/team/${value.id}`}>
                       <Team
+                      
                         icon={teamIcons[index % teamIcons.length]}
                         style={{ backgroundColor: color }}
                         title={value.title}
@@ -133,6 +224,14 @@ function HomePage() {
           </div>
         </div>
       </section>
+      <div>
+        <button
+          className={`scroll-to-top ${isVisible ? "visible" : ""}`}
+          onClick={scrollToTop}
+        >
+          <i className="arrow up"></i>
+        </button>
+      </div>
     </div>
   );
 }

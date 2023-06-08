@@ -32,18 +32,9 @@ justify-content: center;
 }
 
 
-/* .background-image{
-    background-image: url('../../pictures/1.jpg');
-    background-size: cover;
-  
-  background-repeat: no-repeat;
-  
-  height: 100vh;
-  margin: 0;
-} */
+
 .background-image {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     height: 80vh;
     background-color: #f1f1f1;
@@ -87,9 +78,36 @@ justify-content: center;
     flex-direction:column-reverse;
     justify-content: center;
     align-items: center;
+    transition-delay: 1s;
+    transition: background-color 0.5s;
+    transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+    
   }
+  
   .cards h1{
     color: white;
+  }
+
+  .cards.hovered{
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+    transition-delay: 1s;
+    
+  }
+  .cards.hovered>:last-child{
+    font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+ 
+  }
+  .cards:hover {
+    background-color: lightgray;
+  }
+  
+  .hovered {
+    background-color: lightgray;
   }
   
   .background-image img {
@@ -152,3 +170,92 @@ hr.style-one {
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
+.scroll-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 4vw;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+  
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    scroll-behavior: smooth;
+  
+  }
+  
+  .scroll-to-top.visible {
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+@media screen and (max-width: 768px) {
+    .homePage-container {
+      width: 90vw;
+    }
+  .head-contaiter{
+flex-direction: column-reverse;
+  }
+    .container-card {
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      margin-left: 7vw;
+    }
+  
+    .cards {
+      width: 80vw;
+      margin-bottom: 16px;
+    }
+  
+    .background-image img {
+      width: 90vw;
+    }
+    .carousel-container{
+        display: none;
+    }
+    .teams-container{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10vw;
+    }
+    
+  }
+  
+  @media screen and (max-width: 480px) {
+    .headline-school {
+      margin-right: 0;
+    }
+  
+    .container-card {
+      flex-direction: column;
+    }
+  
+    .cards {
+      width: 90vw;
+      margin-bottom: 16px;
+    }
+  
+    .background-image img {
+      width: 100%;
+    }
+    
+   
+   
+  }

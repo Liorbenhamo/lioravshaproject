@@ -6,6 +6,13 @@ import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { InfoContext } from "../src/App";
 import Login from "./Login";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+
 function Navbar() {
   const style = {
     position: "absolute",
@@ -107,54 +114,46 @@ function Navbar() {
         <div>
           <h1 className="headers">USEFUL PHONE NUMBERS</h1>
           <p className="footer-text">Principle - 0584664304</p>
-          <p className="footer-text">Mazcir - 0584664304</p>
+          <p className="footer-text">Secretary - 0584664304</p>
           <p className="footer-text">MB - 0584664304</p>
-          <p className="footer-text">Mancal - 0584664304</p>
+          <p className="footer-text">CEO - 0584664304</p>
         </div>
         <div>
           <h1 className="headers">FIND US ON</h1>
 
-          <div></div>
-          <a
-            className="footer-text"
-            target="_blank"
-            href="https://www.youtube.com/channel/UCZipgpiwZ-2c8uQHQrqnSog"
-          >
-            <img
-              className="logos"
-              src="https://www.liblogo.com/img-logo/yo482f28b-youtube-icon-logo-free-youtube-logo-icon-symbol-png-svg-download.png"
-              alt="image"
-            />
-          </a>
-          <br></br>
-          <a
-            className="footer-text"
-            target="_blank"
-            href="https://www.facebook.com/kfargalim.kfargalim/"
-          >
-            <img
-              className="logos"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/640px-Facebook_icon_2013.svg.png"
-              alt="image"
-            />
-          </a>
-          <br></br>
-          <a
-            className="footer-text"
-            target="_blank"
-            href="https://www.instagram.com/kfar.galim/?hl=en"
-          >
-            <img
-              className="logos"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png"
-              alt="image"
-            />
-          </a>
+          <div className="icons-container">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/"
+            >
+              <FontAwesomeIcon className="icon" icon={faFacebook} />
+            </a>
+
+            <br></br>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/"
+            >
+              <FontAwesomeIcon className="icon" icon={faInstagram} />
+            </a>
+
+            <br></br>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/"
+            >
+              <FontAwesomeIcon className="icon" icon={faTwitter} />
+            </a>
+          </div>
           <br></br>
         </div>
         <div>
           <h1 className="headers">CONTACT US</h1>
-          <p className="footer-text">contact us in the page</p>
+          <Link onClick={() => window.scroll(0,0)} to='/contact'>
+          <button className="contact-us">Contact Us</button></Link>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import "./teamInfo.css";
 import teamData from "../../teamData.json";
 
+
 function TeamInfo() {
   const { id } = useParams();
   console.log(id);
@@ -21,6 +22,12 @@ function TeamInfo() {
               <tr>
                 <td className="ActivityBanner">
                   <h1>{team.title}</h1>
+                  <p className="p-teamInfo">
+        We place emphasis on the individual and give individual attention to
+        each student. Our school strives for excellence and unquestionable
+        professionalism. Our {team.title} team implements all these and gives
+        pride to our school.
+      </p>
                 </td>
               </tr>
               <tr>
@@ -29,12 +36,7 @@ function TeamInfo() {
             </tbody>
           </table>
         )}
-        <p className="p-teamInfo">
-        We place emphasis on the individual and give individual attention to
-        each student. Our school strives for excellence and unquestionable
-        professionalism. Our {team.title} team implements all these and gives
-        pride to our school.
-      </p>
+        
       </div>
       
     </div>

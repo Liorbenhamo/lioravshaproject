@@ -12,6 +12,7 @@ import Studentprofile from "../pages/Studentprofile";
 import Personaleara from "../pages/Personaleara";
 import Teacherprofile from "../pages/Teacherprofile";
 import Teacherpersonaleara from "../pages/Teacherpersonaleara";
+import Contact from "../component/contact/Contact";
 
 export const InfoContext = createContext();
 function App() {
@@ -57,6 +58,7 @@ function App() {
                 element={<Teacherpersonaleara correntuser={correntuser} />}
               ></Route>
               <Route path="team/:id" element={<TeamInfo />}></Route>
+              <Route path="contact" element={<Contact/>}></Route>
 
               <Route
                 path="/teachers"

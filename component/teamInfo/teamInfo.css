@@ -1,12 +1,15 @@
+
+
 .activityPage-body{
-    width:100%;
+    
     margin:0px;
     padding:0px;
+    height: 100vh;
   }
   .ActivityBanner{
     margin:0px;
     padding:0px;
-    width:100%;
+  
     height: 100vh;
     object-fit: cover;
     object-position: 0% 0%;
@@ -28,5 +31,38 @@
     font-weight: bold;
     margin-top: 20px;
     color: #333;
+    object-fit: cover;
     
+  }
+
+  @media screen and (max-width: 768px) {
+    .ActivityBanner {
+      font-size: 30px;
+    }
+  
+    .activity-explanation {
+      font-size: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  
+    .p-teamInfo {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .ActivityBanner {
+      font-size: 24px;
+    }
+  
+    .activity-explanation {
+      font-size: 18px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .p-teamInfo {
+      font-size: 20px;
+    }
   }
