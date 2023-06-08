@@ -9,6 +9,9 @@ import students from "../userData.json";
 import Studentapage from "../pages/Studentapage";
 import Teacherspage from "../pages/Teacherspage";
 import Studentprofile from "../pages/Studentprofile";
+import Personaleara from "../pages/Personaleara";
+import Teacherprofile from "../pages/Teacherprofile";
+import Teacherpersonaleara from "../pages/Teacherpersonaleara";
 
 export const InfoContext = createContext();
 function App() {
@@ -41,6 +44,18 @@ function App() {
             <Route path="/" element={<Navbar />}>
               <Route index element={<HomePage />}></Route>
               <Route path="/report" element={<Report />}></Route>
+              <Route
+                path="/teacherprofile"
+                element={<Teacherprofile />}
+              ></Route>
+              <Route
+                path="/personaleara"
+                element={<Personaleara correntuser={correntuser} />}
+              ></Route>
+              <Route
+                path="/personalearateacher"
+                element={<Teacherpersonaleara correntuser={correntuser} />}
+              ></Route>
               <Route path="team/:id" element={<TeamInfo />}></Route>
 
               <Route

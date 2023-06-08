@@ -58,7 +58,7 @@ function Studentprofile() {
           ))}
         </div>
         <div>
-          hobbies:
+          Activities:
           {from?.schoolActivities.map((Activitie) => (
             <div>{Activitie}</div>
           ))}
