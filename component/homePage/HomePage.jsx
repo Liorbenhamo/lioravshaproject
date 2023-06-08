@@ -21,6 +21,7 @@ import Team from "../teams/Team";
 import teamData from "../../teamData.json";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import Calendarhome from "../Calendarhome";
 
 function HomePage() {
   const colors = ["yellow", "black", "green", "brown"];
@@ -187,6 +188,49 @@ function HomePage() {
               ))}
             </Carousel>
           </div>
+          <div className="buscalendarhomeflex">
+            <div className="calendarhomepage">
+              <div>
+                <Calendarhome />
+              </div>
+            </div>
+            <div className="ulhomepage">
+              <h2>school bus schedule:</h2>
+
+              <h4>7:50:</h4>
+              <ul>
+                <li>ofer</li>
+              </ul>
+              <h4>7:55:</h4>
+              <ul>
+                <li>kerem maharal</li>
+                <li>atlit reef</li>
+                <li>neve yam</li>
+              </ul>
+              <h4>8:00:</h4>
+              <ul>
+                <li>eyain hod</li>
+                <li>beit oren</li>
+                <li>alon</li>
+                <li>harov zaeit mahtarot</li>
+                <li>front the matnas</li>
+                <li>misholim</li>
+                <li>rehes</li>
+              </ul>
+              <h4>8:05:</h4>
+              <ul>
+                <li>magadim</li>
+                <li>neve moshe</li>
+                <li>nahalim</li>
+                <li>zrofa</li>
+              </ul>
+              <h4>8:15:</h4>
+              <ul>
+                <li>hahotrim</li>
+              </ul>
+            </div>
+          </div>
+
           <div className="feature-list">
             <div className="feature-item">
               <FontAwesomeIcon icon={faUser} />
@@ -209,9 +253,11 @@ function HomePage() {
 
                 return (
                   <div key={index} className="team-item">
-                    <Link onClick={() => window.scroll(0,0)}  to={`/team/${value.id}`}>
+                    <Link
+                      onClick={() => window.scroll(0, 0)}
+                      to={`/team/${value.id}`}
+                    >
                       <Team
-                      
                         icon={teamIcons[index % teamIcons.length]}
                         style={{ backgroundColor: color }}
                         title={value.title}

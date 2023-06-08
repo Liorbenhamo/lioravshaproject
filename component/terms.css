@@ -1,0 +1,26 @@
+.bordered-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.bodyterms {
+  display: flex;
+  justify-content: center;
+}
+.containerterms {
+  width: 80vw;
+  margin: 25px;
+}
+.bordered-table th,
+.bordered-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  font-family: "Arial", "Arial Black";
+}
+.row1 {
+  background-color: rgb(50, 50, 151);
+  color: aliceblue;
+}
+.row2 {
+  background-color: rgb(150, 180, 223);
+}
