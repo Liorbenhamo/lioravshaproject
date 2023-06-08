@@ -20,10 +20,10 @@ function CardEvent({image,title,content}) {
         title="."
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
          {title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1rem', lineHeight: '1.5' }}>
           {content}
         </Typography>
       </CardContent>

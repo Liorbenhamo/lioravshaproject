@@ -61,6 +61,35 @@
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+.footer{
+  display: flex;
+  top: 500px;
+  justify-content: space-around;
+  flex-direction: row;
+  background: linear-gradient(to bottom,#ffffff, #84e4df );
+  
+}
+.headers{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Monospace", "Lucida Console";
+}
+.footer-text{
+  font-family: "Monospace", "Lucida Console";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logos{
+  width: 30px; 
+  height: auto; 
+  display: flex;
+ margin-left:40px;
+ padding: auto;
+ margin-top: px;
+}
 
 @media (min-width: 769px) {
   .headernavbar,
