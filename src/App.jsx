@@ -13,6 +13,9 @@ import Personaleara from "../pages/Personaleara";
 import Teacherprofile from "../pages/Teacherprofile";
 import Teacherpersonaleara from "../pages/Teacherpersonaleara";
 import Contact from "../component/contact/Contact";
+import Managercalendar from "../pages/Managercalendar";
+import Terms from "../component/Terms";
+import Aboutus from "../component/Aboutus";
 
 export const InfoContext = createContext();
 function App() {
@@ -30,7 +33,7 @@ function App() {
     setUsers,
   };
   useEffect(() => {
-    setUsers([...students.students, ...students.teachers]);
+    setUsers([...students.students, ...students.teachers, students.headmaster]);
   }, []);
 
   useEffect(() => {
@@ -45,6 +48,7 @@ function App() {
             <Route path="/" element={<Navbar />}>
               <Route index element={<HomePage />}></Route>
               <Route path="/report" element={<Report />}></Route>
+              <Route path="/about" element={<Aboutus />}></Route>
               <Route
                 path="/teacherprofile"
                 element={<Teacherprofile />}
@@ -53,12 +57,17 @@ function App() {
                 path="/personaleara"
                 element={<Personaleara correntuser={correntuser} />}
               ></Route>
+              <Route path="/terms" element={<Terms />}></Route>
+              <Route
+                path="/managercalendar"
+                element={<Managercalendar />}
+              ></Route>
               <Route
                 path="/personalearateacher"
                 element={<Teacherpersonaleara correntuser={correntuser} />}
               ></Route>
               <Route path="team/:id" element={<TeamInfo />}></Route>
-              <Route path="contact" element={<Contact/>}></Route>
+              <Route path="contact" element={<Contact />}></Route>
 
               <Route
                 path="/teachers"

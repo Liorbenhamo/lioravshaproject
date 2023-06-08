@@ -34,9 +34,11 @@ function Navbar() {
     <div className="bodynavbar">
       <header className="headernavbar">
         <Link to="/">
-          <h1 className="logo">
-            <p>Kfar Galim high school</p>
-          </h1>
+          <img
+            style={{ height: "100px", width: "150px" }}
+            src="https://kfargalim.co.il/wp-content/uploads/2021/07/לוגו-גלים-תשפב-300x154.png"
+            alt="Kfar Galim high school"
+          />
         </Link>
 
         <ul className="main-nav">
@@ -62,6 +64,13 @@ function Navbar() {
               </li>
             </Link>
           )}
+          {info?.correntuser?.title == "headmaster" && (
+            <Link to="/managercalendar">
+              <li className="headersnavbar">
+                <p>manager</p>
+              </li>
+            </Link>
+          )}
           {info?.correntuser?.title == "student" && (
             <Link to="/teachers">
               <li className="headersnavbar">
@@ -73,6 +82,16 @@ function Navbar() {
           <Link to="/report">
             <li className="headersnavbar">
               <p>report</p>
+            </li>
+          </Link>
+          <Link to="/about">
+            <li className="headersnavbar">
+              <p>about</p>
+            </li>
+          </Link>
+          <Link to="/terms">
+            <li className="headersnavbar">
+              <p>terms</p>
             </li>
           </Link>
           {info.correntuser?.title == "student" && (
