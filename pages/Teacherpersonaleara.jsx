@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './message.css'
 
 function Teacherpersonaleara({ correntuser }) {
   const [messages, setMessage] = useState(
@@ -6,11 +7,11 @@ function Teacherpersonaleara({ correntuser }) {
   );
   console.log(messages);
   return (
-    <div>
+    <div className="message-container">
       {messages.length ? (
         <div>
           {messages?.map((message) => (
-            <div>{message}</div>
+            <div key={index}>{message}</div>
           ))}
         </div>
       ) : (

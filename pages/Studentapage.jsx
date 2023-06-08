@@ -6,8 +6,11 @@ function Studentapage({ studentsusers }) {
   console.log(filtered);
   return (
     <div>
-      <div>
+      <div className="input-container">
+        
         <input
+          className="input-student"
+          placeholder="Serch a student..."
           onChange={(e) =>
             setFiltered(
               studentsusers?.filter((student) =>

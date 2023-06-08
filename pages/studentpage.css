@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  min-height: 50vh;
 }
 img {
   padding: 5px;
@@ -16,4 +17,31 @@ img {
 .teacherpageflex {
   display: flex;
   justify-content: space-evenly;
+}
+.input-container{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.input-student{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-color: black;
+}
+
+.teacher-file{
+  
+  display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.whatsApp{
+  margin-bottom:  5vh;;
 }

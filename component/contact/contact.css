@@ -1,0 +1,91 @@
+.contact-continer {
+    display: flex;
+    padding: 5rem;
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+  }
+  
+  .contact-us-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .contact-us-container h2 {
+    width: 30vw;
+    margin-bottom: 20px;
+  
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label-contact {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button:disabled {
+    background-color: #bfbfbf;
+    cursor: not-allowed;
+  }
+  
+  .Home-button-contact {
+    background-color: #0056b3;
+  }
+  .Home-button-contact:hover {
+    background-color: #bfbfbf;
+  }
+  .Toastify__toast-container {
+    width: 350px;
+  }
+  
+  .Toastify__toast {
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .Toastify__toast-body {
+    padding: 10px;
+  }
+  

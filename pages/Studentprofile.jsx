@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { useLocation } from "react-router";
 import "./studentprofile.css";
 import axios from "axios";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHouse,faSchool,faGamepad,faChartLine
+} from "@fortawesome/free-solid-svg-icons";
 function Studentprofile() {
   const location = useLocation();
   const { from } = location.state;
@@ -43,33 +47,33 @@ function Studentprofile() {
   return (
     <div>
       <div className="infoandimgstudent">
-        <div>
+        <div className='file-container'>
           <div>
-            <img src={from.image} alt={from.name} />
+            <img className='image-file' src={from.image} alt={from.name} />
           </div>
-          <div>{from.name}</div>
+          <div className='head-file'>{from.name} </div>
         </div>
-        <div>residence:{from.residence}</div>
-        <div>studyAdjustments:{from.studyAdjustments}</div>
-        <div>
-          hobbies:
+        <div className='head-file'> <FontAwesomeIcon icon={faHouse}   />Residence: <br /> {from.residence}</div>
+        <div className='head-file'><FontAwesomeIcon icon={faSchool} /> StudyAdjustments: <br /> {from.studyAdjustments}</div>
+        <div className='head-file'>
+        <FontAwesomeIcon icon={faGamepad} /> Hobbies:
           {from?.hobbies.map((hobbie) => (
-            <div>{hobbie}</div>
+            <div> {hobbie}</div>
           ))}
         </div>
-        <div>
-          Activities:
+        <div className='head-file'>
+        <FontAwesomeIcon icon={faChartLine} /> Activities:
           {from?.schoolActivities.map((Activitie) => (
             <div>{Activitie}</div>
           ))}
         </div>
       </div>
       <div>
-        <input onChange={(e) => handlechange(e)} type="file" />
-        <button onClick={() => handleclick()}>click to upload file</button>
+        <input   onChange={(e) => handlechange(e)} type="file" />
+        <button className="button-student" onClick={() => handleclick()}>Click to upload file</button>
       </div>
 
-      <div>
+      <div className="files">
         {works.map((work) => (
           <a target="_blank" href={work}>
             <img

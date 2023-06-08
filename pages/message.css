@@ -1,0 +1,6 @@
+.message-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(162, 159, 159, 0.416);
+    height: 100vh;
+}

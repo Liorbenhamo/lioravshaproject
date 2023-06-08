@@ -27,28 +27,29 @@ function Teacherprofile() {
   console.log(from);
   return (
     <div>
-      <div className="infoandimgstudent">
-        <div>
+      <div className="infoandimgstudent1">
+        <div className='file-container'>
           <div>
-            <img src={from.image} alt={from.name} />
+            <img className='image-file' src={from.image} alt={from.name} />
           </div>
-          <div>{from.name}</div>
+          <div className='head-file'>{from.name}</div>
         </div>
         <div>
-          <h1>{from.name}</h1>
+          <h1 >{from.name}</h1>
         </div>
       </div>
-      <div>
+      <div className='teacher-file'>
         <textarea
+        
           onChange={(e) => handlechange(e)}
           cols="30"
           rows="10"
         ></textarea>
         <br />
-        <button onClick={() => handleclick()}>
+        <button className="button-student" onClick={() => handleclick()}>
           send message to {from.name}
         </button>
-        <a target="_blank" href="https://wa.me/+972528922034">
+        <a className="whatsApp" target="_blank" href="https://wa.me/+972528922034">
           <img
             style={{ height: 100 }}
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/640px-WhatsApp.svg.png"

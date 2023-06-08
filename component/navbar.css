@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 .bodynavbar {
   font-family: "Montserrat", sans-serif;
@@ -88,9 +89,34 @@
   display: flex;
  margin-left:40px;
  padding: auto;
- margin-top: px;
+
+}
+.icons-container{
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.icon:hover{
+  transform: scale(1.5);
+}
+.contact-us {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+.footer-text:hover {
+  background-color: #555;
+}
 @media (min-width: 769px) {
   .headernavbar,
   .main-nav {
