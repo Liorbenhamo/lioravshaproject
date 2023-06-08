@@ -33,36 +33,55 @@ function Navbar() {
         </Link>
 
         <ul className="main-nav">
-          <li className="headersnavbar">
-            <p onClick={handleOpen}>login</p>
-            <Modal
-              open={open}
-              onClose={handleClose}
-              aria-labelledby="modal-modal-title"
-              aria-describedby="modal-modal-description"
-            >
-              <Box sx={style}>
-                <Login />
-              </Box>
-            </Modal>
-          </li>
-
-          <Link to="/students">
+          {!info.correntuser && (
             <li className="headersnavbar">
-              <p>Studentspage</p>
+              <p onClick={handleOpen}>login</p>
+              <Modal
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+              >
+                <Box sx={style}>
+                  <Login />
+                </Box>
+              </Modal>
             </li>
-          </Link>
-          <Link to="/teachers">
-            <li className="headersnavbar">
-              <p>Teachers</p>
-            </li>
-          </Link>
+          )}
+          {info?.correntuser?.title == "teacher" && (
+            <Link to="/students">
+              <li className="headersnavbar">
+                <p>Studentspage</p>
+              </li>
+            </Link>
+          )}
+          {info?.correntuser?.title == "student" && (
+            <Link to="/teachers">
+              <li className="headersnavbar">
+                <p>Teachers</p>
+              </li>
+            </Link>
+          )}
 
           <Link to="/report">
             <li className="headersnavbar">
               <p>report</p>
             </li>
           </Link>
+          {info.correntuser?.title == "student" && (
+            <Link to="/personaleara">
+              <li className="headersnavbar">
+                <p>Personaleara</p>
+              </li>
+            </Link>
+          )}
+          {info.correntuser?.title == "teacher" && (
+            <Link to="/personalearateacher">
+              <li className="headersnavbar">
+                <p>messages</p>
+              </li>
+            </Link>
+          )}
         </ul>
       </header>
       <Outlet />
