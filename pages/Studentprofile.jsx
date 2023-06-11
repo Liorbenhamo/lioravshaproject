@@ -57,6 +57,7 @@ function Studentprofile() {
           </div>
           <div className="head-file">{from.name} </div>
         </div>
+        <div className="conti">
         <div className="head-file">
           {" "}
           <FontAwesomeIcon icon={faHouse} />
@@ -78,6 +79,7 @@ function Studentprofile() {
             <div>{Activitie}</div>
           ))}
         </div>
+      </div>
       </div>
       <div>
         <input onChange={(e) => handlechange(e)} type="file" />

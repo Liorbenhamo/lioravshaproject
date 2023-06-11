@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content:space-around;
   min-height: 50vh;
 }
 img {
@@ -16,7 +17,7 @@ img {
 }
 .teacherpageflex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .input-container{
   margin-top: 5px;
@@ -44,4 +45,17 @@ img {
 }
 .whatsApp{
   margin-bottom:  5vh;;
+}
+@media screen and (max-width: 576px) {
+  .studentflex img {
+    height: 90px;
+    /* width: 60px; */
+  }
+  .cardstudent {
+    padding: 8px;
+    margin: 4px;
+  }
+  .teacherpageflex{
+    flex-wrap: wrap;
+  }
 }

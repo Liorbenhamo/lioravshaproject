@@ -1,5 +1,6 @@
 .page-text {
   font-size: 20px;
+ 
 }
 .headline {
   font-size: 36px;
@@ -15,10 +16,24 @@
   justify-content: center;
 }
 .imgaboutus {
-  height: 200px;
-  width: 150px;
+  float: left;
+  height: 300px;
+  width: 300px;
 }
 .page-font {
   font-family: "Comic Sans MS", "Comic Sans";
   width: 80vw;
+}
+@media screen and (max-width: 768px){
+  .headline{
+    font-size: 1rem;
+  }
+  .page-text{
+    font-size: 0.8rem;
+  }
+  .imgaboutus {
+    margin-left: 15vw;
+    height: 20vh;
+    width: 50vw;
+  }
 }

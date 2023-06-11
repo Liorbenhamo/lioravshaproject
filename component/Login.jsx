@@ -27,26 +27,28 @@ function Login({ handleClose2 }) {
         <p className="titlelogin">Login </p>
         <p className="messagelogin">login to your batyam user accuont</p>
         <br />
-        <label>
-          <input
-            required=""
-            placeholder="Username"
-            type="text"
-            className="inputlogin"
-            {...register("username", { required: true })}
-          />
+        <label htmlFor="username">
           <span>Username</span>
         </label>
-        <label>
+        <input
+          required=""
+          placeholder="Username"
+          type="text"
+          id="username"
+          className="inputlogin"
+          {...register("username", { required: true })}
+        />
+        <label htmlFor="password">
+          <span>Password</span>
+        </label>
           <input
             required=""
             placeholder="Password"
             type="password"
+            id="password"
             className="inputlogin"
             {...register("password", { required: true })}
           />
-          <span>Password</span>
-        </label>
         <br />
         <input type="submit" className="submitlogin" />
       </form>

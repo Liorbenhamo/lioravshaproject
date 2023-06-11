@@ -8,15 +8,25 @@
 }
 .containerterms {
   width: 80vw;
-  margin: 25px;
+  
 }
+.h1-t {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
 .bordered-table th,
 .bordered-table td {
   border: 1px solid black;
-  padding: 8px;
   text-align: left;
   font-family: "Arial", "Arial Black";
 }
+
+  
 .row1 {
   background-color: rgb(50, 50, 151);
   color: aliceblue;
@@ -24,3 +34,18 @@
 .row2 {
   background-color: rgb(150, 180, 223);
 }
+@media screen and (max-width: 768px){
+.h1-t{
+  font-size: 1.0rem;
+}
+.th{
+  font-size: 0.8rem;
+}
+th{
+  font-size: 0.7rem;
+}
+.h2-t{
+  font-size: 0.8rem;
+}
+}
+

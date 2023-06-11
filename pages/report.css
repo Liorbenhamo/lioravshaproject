@@ -140,3 +140,10 @@
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 768px){
+.messagelogin{
+  font-size: 1rem;
+}
+}
+
