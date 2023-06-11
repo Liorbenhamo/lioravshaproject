@@ -15,7 +15,7 @@ function Teacherspage({ teachersusers }) {
   ];
   return (
     <div>
-      <p>Please select your subject:</p>
+      <h1>Please select your subject:</h1>
       <div className="teacherpageflex">
         {lessons.map((lesson, index) => (
           <Lesson

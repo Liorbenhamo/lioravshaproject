@@ -1,10 +1,12 @@
 import React from "react";
+import './lesson.css'
 
 function Lesson({ lesson, setFiltered, teachersusers }) {
   console.log(lesson);
   return (
-    <div>
+    <div className="lesson-container">
       <input
+       className="lesson-input"
         onClick={(e) =>
           setFiltered(
             teachersusers?.filter((user) => user.subject == e.target.value)
@@ -14,7 +16,7 @@ function Lesson({ lesson, setFiltered, teachersusers }) {
         name="subject"
         value={lesson}
       />
-      <label for="html">{lesson}</label>
+      <label className="lesson-label" htmlFor="html">{lesson}</label>
     </div>
   );
 }

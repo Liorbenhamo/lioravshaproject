@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChalkboardUser
+} from "@fortawesome/free-solid-svg-icons";
 
 function Teacherprofile() {
   const [message, setMessage] = useState();
@@ -32,23 +36,29 @@ function Teacherprofile() {
           <div>
             <img className='image-file' src={from.image} alt={from.name} />
           </div>
+          
           <div className='head-file'>{from.name}</div>
+          
+        
         </div>
-        <div>
-          <h1 >{from.name}</h1>
-        </div>
-      </div>
-      <div className='teacher-file'>
-        <textarea
+        <div className="shalom">
+          <h1 ><FontAwesomeIcon icon={faChalkboardUser} />{from.name}</h1>
+          <textarea
         
           onChange={(e) => handlechange(e)}
           cols="30"
           rows="10"
         ></textarea>
         <br />
-        <button className="button-student" onClick={() => handleclick()}>
+         <button className="button-student" onClick={() => handleclick()}>
           send message to {from.name}
         </button>
+        </div>
+      </div>
+      <div className='teacher-file'>
+        
+        <br />
+       
         <a className="whatsApp" target="_blank" href="https://wa.me/+972528922034">
           <img
             style={{ height: 100 }}

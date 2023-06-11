@@ -4,17 +4,17 @@ function Terms() {
   return (
     <div className="bodyterms">
       <div className="containerterms">
-        <h1>terms:</h1>
+        <h1 className="h1-t">terms:</h1>
         <table className="bordered-table">
           <tr className="row1">
-            <th>Expected Behaveor</th>
-            <th>First Time</th>
-            <th>Second Time</th>
-            <th>Third Time</th>
+            <th className="th">Expected Behaveor</th>
+            <th className="th">First Time</th>
+            <th className="th">Second Time</th>
+            <th className="th">Third Time</th>
           </tr>
           <tr className="row2">
             <th>
-              <h2>Clothing: </h2>
+              <h2 className="h2-t">Clothing: </h2>
               <br />
               1. All the students need to wear the school uniform <br />
               <br />
@@ -33,7 +33,7 @@ function Terms() {
 
           <tr className="row2">
             <th>
-              <h2>Abcense:</h2> <br />
+              <h2 className="h2-t">Abcense:</h2> <br />
               1. All the students Should be present during all classes <br />
               <br />
               2. Do not reach school if you are not feeling well <br />
@@ -49,7 +49,7 @@ function Terms() {
 
           <tr className="row2">
             <th>
-              <h2>Foridden:</h2> <br />
+              <h2 className="h2-t">Foridden:</h2> <br />
               1. It is definitely forbidden to smoke in the school area. <br />
               <br />
               2. The use of the hookah is forbidden as smoking. <br />
@@ -74,7 +74,7 @@ function Terms() {
           <tr className="row2">
             <th>
               {" "}
-              <h2> Technology: </h2>
+              <h2 className="h2-t"> Technology: </h2>
               <br />
               1. Any use of personal technology in general and a mobile phone in
               particular during the lesson and during exams is strictly
@@ -104,7 +104,7 @@ function Terms() {
           <tr className="row2">
             <th>
               {" "}
-              <h2> School Breaks: </h2>
+              <h2 className="h2-t"> School Breaks: </h2>
               <br />
               1. The ten-o'clock break is a meal break and it takes place in
               classrooms only. <br />

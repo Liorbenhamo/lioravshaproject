@@ -8,11 +8,12 @@ function Aboutus() {
           Principle words for the opening of the school year
         </h2>
         <hr />
-        <img
+        <img 
           className="imgaboutus"
           src="https://college.org.il/wp-content/uploads/2019/01/nihul-maarhot-miktsoiyot.jpg"
           alt="principle"
         />
+        <br />
         <span className="page-text">
           "Once again, we set out on the journey, hand in hand, on a golden
           chain... Today, with excitement and joy, we opened the school year

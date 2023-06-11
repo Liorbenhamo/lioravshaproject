@@ -75,48 +75,56 @@ function Report() {
             You can report anonymously or wish your own name.
           </p>
           <br />
-          <label>
+          <label htmlFor="email">
+          <span>your email adrees (not required):</span>
+          </label>
             <input
               required=""
-              placeholder="your email adrees *not required"
+              placeholder="your email adrees..."
               type="email"
+              id="email"
               className="inputlogin"
               {...register("email")}
             />
-            <span>your email adrees *not required</span>
+           
+          <label htmlFor="text">
+          <span>Subject:</span>
           </label>
-          <label>
             <input
               required=""
-              placeholder="subject"
+              placeholder="Subject..."
               type="text"
+              id="subject"
               className="inputlogin"
               {...register("subject", { required: true })}
             />
-            <span>subject</span>
-          </label>
+           
 
-          <label>
+          <label htmlFor="text">
+          <span>Place and time (not required):</span>
+          </label>
             <input
               required=""
-              placeholder="place and time*not required"
+              placeholder="Place and time..."
               type="text"
+              id="time"
               className="inputlogin"
               {...register("placetime")}
             />
-            <span>place and time*not required</span>
+           
+          <label htmlFor="text" >
+          <span>People involve:</span>
           </label>
-          <label>
             <input
               required=""
-              placeholder="people involve"
+              placeholder="People involve..."
               type="text"
+              id="people"
               className="inputlogin"
               {...register("peopleinvolve")}
             />
-            <span>people involve</span>
-          </label>
-          <label>image url:</label>
+            
+          <label>Image url:</label>
           <input type="file" {...register("url")} />
           <input
             style={{ display: "none" }}

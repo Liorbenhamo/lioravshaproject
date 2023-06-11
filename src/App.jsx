@@ -32,6 +32,7 @@ function App() {
     users,
     setUsers,
   };
+  console.log(users);
   useEffect(() => {
     setUsers([...students.students, ...students.teachers, students.headmaster]);
   }, []);

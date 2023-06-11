@@ -21,7 +21,33 @@
   padding: 10px 15px;
   text-transform: uppercase;
   text-align: center;
-  display: block;
+  display: inline-block;
+  position: relative;
+}
+.headersnavbar::before,
+.headersnavbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #34495e;
+  transition: width 0.3s ease;
+}
+
+.headersnavbar::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.headersnavbar::after {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.headersnavbar:hover::before,
+.headersnavbar:hover::after {
+  width: 50%;
 }
 
 .logo {
@@ -137,5 +163,47 @@
   .headernavbar {
     flex-direction: row;
     justify-content: space-between;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .headers,
+  .footer-text {
+    font-size: 16px;
+  }
+
+  .logos {
+    margin-left: 0;
+  }
+
+  .icons-container {
+    margin-top: 10px;
+  }
+
+  .icon {
+    padding: 5px;
+  }
+
+  .contact-us {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .headersnavbar {
+    padding: 8px 12px;
+  }
+
+  .logo {
+    font-size: 1em;
+  }
+
+  .main-nav p {
+    padding: 8px 12px;
+    font-size: 0.7em;
   }
 }

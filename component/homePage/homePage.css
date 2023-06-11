@@ -257,6 +257,10 @@ hr.style-one {
     justify-content: center;
     margin-left: 10vw;
   }
+  .buscalendarhomeflex{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 480px) {

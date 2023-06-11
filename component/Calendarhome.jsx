@@ -75,6 +75,7 @@ function Calendarhome() {
   return (
     <div>
       <Calendar
+      displayEventTime={false}
         select={handleSelect}
         plugins={[dayGridPlugin, interactionPlugin]}
         views={["dayGridMonth", "dayGridWeek", "dayGridDay"]}
